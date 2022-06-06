@@ -1,0 +1,200 @@
+.logins{
+    width: 100%;
+    /* height: 700px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+.logins-info-box{
+    margin-top: 100px;
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(51, 51, 51, 0.199);
+    padding: 70px;
+    position: relative;
+}
+.logins-info-box::before{
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    width: 200px;
+    height: 100px;
+}
+.logins-info-box::after{
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: 90px;
+    border: 3px solid blue;
+    border-radius: 50%;
+    background-color: white;
+    width: 7px;
+    height: 7px;
+}
+
+.logins-info-box-imgbox{
+    width: 150px;
+    height: 150px;
+    background-image: url(../../public/login_sprite_sprite.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: 20px 20px;
+    float: left;
+    margin-left: 100px;
+    border: 1px solid rgba(51, 51, 51, 0);
+    border-radius: 50%;
+    background-color: rgba(51, 51, 51, 0.377);
+}
+.logins-info-box-text{
+    text-align: left;
+    margin-right: 200px;
+}
+.sptexts{
+    color: red;
+    position: relative;
+    padding-left: 20px;
+}
+.sptexts::before{
+    display: inline-block;
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-image: url(../../public/login_textpoint.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+.logins-boxs{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+}
+.logins-simple-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 70px;
+    background-color: rgb(38, 0, 209);
+    color: white;
+}
+.logins-simple-top>span{
+    font-size: 20px;    
+    font-weight: 700;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logins-simple-top>span::before{
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background-image: url(../../public/login_img4.png);
+    background-repeat: no-repeat;
+    left: 0;
+}
+.logins-simple-main{
+    margin-top: 50px;
+    width: 500px;
+    height: 400px;
+    border: 1px solid rgba(51, 51, 51, 0.295);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logins-simple-main>a{
+    margin-bottom: 50px;
+}
+.logins-book-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 70px;
+    background-color: rgb(13, 0, 70);
+    color: white;
+}
+.logins-book-top>span{
+    font-size: 20px;    
+    font-weight: 700;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logins-book-top>span::before{
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background-image: url(../../public/login_img2.png);
+    background-repeat: no-repeat;
+    left: 0;
+}
+.logins-book-main{
+    margin-top: 50px;
+    width: 900px;
+    height: 400px;
+    border: 1px solid rgba(51, 51, 51, 0.329);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.logins-book-main-box{
+    display: flex;
+    margin-bottom: 30px;
+}
+.logins-book-main-login{
+    display: flex;
+    flex-direction: column;
+}
+.logins-book-main-id{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.logins-book-main-pass{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logins-book-main-login-p{
+    font-size: 20px;
+    font-family: 'Gothic A1', sans-serif;
+    text-align: right;   
+    margin-right: 30px;
+}
+.logins-book-main-login-input{
+    width: 300px;
+    height: 50px;
+}
+.logins-book-main-login-btn{
+    width: 130px;
+    height: 130px;
+    border: 1px solid rgba(51, 51, 51, 0);
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+}

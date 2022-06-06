@@ -1,0 +1,49 @@
+.footer{
+    width: 1500px;
+    margin: auto;
+    display: flex;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.footerlogo{
+    padding-top: 60px;
+    padding-bottom: 70px;
+    padding-right: 70px;
+}
+.footercopy{
+    padding-top: 40px;
+}
+.footercopy-top{
+    margin-bottom: 40px;
+    display: flex;
+}
+.footercopy-top>p{
+    cursor: pointer;
+    margin-right: 20px;
+    position: relative;
+}
+.footercopy-top>p:hover{
+    text-decoration: underline;
+}
+.footercopy-top>p::before{
+    display: flex;
+    align-items: center;
+    content: "";
+    position: absolute;
+    width: 1;
+    height: 14px;
+    border-left: 1px solid #333;
+    margin-top: 5px;
+    left: -10px;
+}
+.footercopy-top>p:first-child{
+    color: red;
+}
+.footercopy-top>p:first-child::before{
+    border: none;
+}
+.footercopy-bottom>p:first-child{
+    margin-bottom: 10px;
+}
+.footercopy-bottom{
+    font-weight: 300;
+}

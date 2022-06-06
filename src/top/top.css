@@ -1,0 +1,96 @@
+.top{
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+}
+.topbar{
+    width: 1500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topthree{
+    display: flex;
+    align-items: center;
+}
+.topthree>p{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(19, 1, 100);
+    color: white;
+    margin-right: 1px;
+}
+.login{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.login>p{
+    margin-right: 10px;
+}
+.languagebar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 50px;
+    background-color: white;
+    margin-right: 10px;
+    color: rgb(116, 116, 116);
+    position: relative;
+    cursor: pointer;
+}
+.languagebar>p{
+    margin-right: 5px;
+}
+.languagebar-drop{
+    z-index: 901;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 140px;
+    height: 120px;
+    background-color: white;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 25px;
+    position: absolute;
+    right: 410px;
+    top: 50px;
+}
+.languagebar-drop>p{
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.languagebar-drop>p:hover{
+    text-decoration: underline;
+}
+.login-searchbox{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+}
+.login-searchbox>input{
+    width: 80%;
+    padding-left: 5px;
+    font-size: 18px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+.login-searchbox>input::placeholder{
+    font-size: 16px;
+}
+.login-search{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}

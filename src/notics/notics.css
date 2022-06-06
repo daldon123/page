@@ -1,0 +1,135 @@
+.notics{
+    width: 1500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 50px;
+}
+.notics01{
+    width: 700px;
+    border: 1px dashed black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+.notics01::before{
+    content: "";
+    width: 200px;
+    height: 1px;
+    border-top: 3px solid blue;
+    position: absolute;
+    top: -1px;
+    left: 0;
+}
+/* 111111111111111 */
+.notics01-manu{
+    width: 120px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+.notics01-manu>p:first-child{
+    margin-bottom: 10px;
+}
+.notics01-xbtn{
+    /* border: 1px solid #333; */
+    font-size: 50px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.notics01-text>li{
+    font-size: 16px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.notics01-text>li:last-child{
+    margin: 0;
+}
+.notics01-text>li:hover{
+    text-decoration: underline;
+}
+.notics01-text>li::marker{
+    color: rgb(172, 172, 172);
+}
+
+/* 2222222222222222222222 */
+.notics02{
+    width: 700px;
+    border: 1px dashed black;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    padding: 30px;
+}
+.notics02::before{
+    content: "";
+    width: 200px;
+    height: 1px;
+    border-top: 3px solid green;
+    position: absolute;
+    top: -1px;
+    right:500px;
+}
+.notics02-manu{
+    width: 120px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 30px;
+}
+.notics02-xbtn{
+    /* border: 1px solid #333; */
+    font-size: 50px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+    padding-top: 112px;
+    margin-bottom: 30px;
+}
+.notics02-middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.notics02-middle>p{
+    font-size: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+}
+.fa-calendar-check{
+    margin-top: 30px;
+    width: 120px;
+    height: 120px;
+    font-size: 80px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    background-color: gray;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notics02-text{
+    width: 320px;
+    margin-left: 30px;
+    padding-bottom: 110px;
+}
+.notics02-text>p:first-child{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.notics02-text>p>strong{
+    color: red;
+}

@@ -1,0 +1,93 @@
+ /* */
+.topnav-01{
+    cursor: pointer;
+    position: relative;
+}
+.fa-circle-dot{
+    position: absolute;
+    top: 69px;
+    left: 100px;
+    font-size: 15px;
+    z-index: 901;
+    color: rgb(139, 139, 139);
+}
+.topnav-01-drop{
+    border-top: 1px solid rgba(51, 51, 51, 0.185);
+    border-bottom: 1px solid rgba(51, 51, 51, 0.185);
+    z-index: 900;
+    position: absolute;
+    left: -700px;
+    top: 76px;
+    width: 1975px;
+    /* height: 400px; */
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    font-size: 20px;
+}
+.topnav-01-drop-l{
+    width: 25%;
+    height: 100%;
+    background-image: url(../../public/lnb_bg_sprite.png) ;
+    background-repeat: no-repeat;
+    background-size: 160%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.topnav-01-drop-l>p:first-child{
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 100px;
+    margin-bottom: 20px;
+    padding-left: 100px;
+    
+}
+.topnav-01-drop-l>p:last-child{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 300px;
+    padding-left: 50px;
+}
+.topnav-01-drop-c{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.topnav-01-drop-c>ul{
+    padding: 0;
+    list-style: none;
+    padding: 0;
+    margin-right: 0px;
+}
+.topnav-01-drop-c>ul>p{
+    width: 180px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(51, 51, 51, 0.397);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.topnav-01-drop-c>ul>li{
+    font-size: 17px;
+    padding: 0;
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.575);
+}
+.topnav-01-drop-c>ul>li:hover{
+    text-decoration: underline;
+}
+.topnav-01-drop-r{
+    width: 15%;
+    background-color: rgb(255, 255, 255);
+}
+.topnav-01-drop-c-sm:hover .topnav-01-drop-c-sm-p{
+    background-color: rgb(77, 77, 77);
+    color: white;
+}
+/*  */

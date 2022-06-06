@@ -1,0 +1,30 @@
+.bottombar{
+    width: 100%;
+    background-color: rgb(46, 46, 87);
+}
+.bottombar-select{
+    width: 1500px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+.bottombar{
+    cursor: pointer;
+    height: 60px;
+    border-right: 1px solid rgba(255, 255, 255, 0.233);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottombar>p:hover{
+    text-decoration: underline;
+}
+.bottombar:first-child{
+    border-left: 1px solid rgba(255, 255, 255, 0.233);
+}
+.bottombaricon{
+    padding-left: 100px;
+}
