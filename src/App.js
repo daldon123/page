@@ -23,7 +23,7 @@ export default class App extends Component {
         <Top/>
         <Header/>
         <Routes>
-          <Route path="/page" element={<Home />}/>
+          <Route path="/page/" element={<Home />}/>
           <Route path="/login/*" element={<Login />}/>
           <Route path="/Home/*" element={<Home />}/>
         </Routes>
